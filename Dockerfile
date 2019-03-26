@@ -1,5 +1,5 @@
-FROM tutum/curl
-RUN apt-get update && apt-get install -y dnsutils
+FROM ubuntu:trusty
+RUN apt-get update && apt-get install -y curl dnsutils
 #ADD coredns /usr/local/bin/
 #ADD Corefile /usr/local/bin/
 #ADD run.sh /usr/local/bin/

@@ -69,3 +69,9 @@ data:
   stubDomains: |
     {"global": ["10.2.3.4"]}
 ```
+
+## BUILDING 
+
+- make docker-build
+
+If you run into an issue locating sources, you might need to run `make vendor`
